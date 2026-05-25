@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Home from './pages/Home';
 import Revamp from './pages/Revamp';
 import Native from './pages/Native';
